@@ -22,25 +22,24 @@ steps {
 
 dir('src') {
 bat 'java Hello'
-
 }
-
 }
-
 }
-
 }
-
 post {
 
 success {
 
-echo 'BUILD SUCCESSFUL
+echo 'BUILD SUCCESSFUL'
 
 }
 
 failure {
+
 echo 'BUILD FAILED'
+
 }
+
 }
+
 }
